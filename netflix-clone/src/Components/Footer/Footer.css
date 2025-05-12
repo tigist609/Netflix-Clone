@@ -1,0 +1,111 @@
+.footer_outer_container {
+  background-color: #111; /* or use var(--bg-color) if you defined it */
+  padding: 40px 20px;
+  color: #fff;
+  font-family: var(--font-base, 'Lexend', sans-serif);
+}
+
+.footer_inner_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer_icons {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  justify-content:left;
+}
+
+.footer_icons svg {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.footer_icons svg:hover {
+  transform: scale(1.1);
+}
+
+.footer_data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer_data > div {
+  flex: 1 1 200px;
+}
+
+.footer_data ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_data li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footer_data li:hover {
+   border: 1px solid #fff; 
+  color: #fff; 
+ display: inline-block;
+}
+ .footer_data li {
+  padding: 5px 12px; 
+  transition: all 0.2s ease;
+}
+.footer_bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  padding: 20px 0;
+  font-family: var(--font-second-base, 'Inter', sans-serif);
+}
+
+.service_code {
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.service_code p {
+  font-size: 14px;
+  font-family: var(--font-second-base, 'Inter', sans-serif);
+  display: flex;
+  text-align: center;
+  
+}
+.copy-write {
+  text-align: center;
+  font-size: 14px;
+    padding: 1px 0;
+  display: flex;
+  font-family: var(--font-second-base, 'Inter', sans-serif);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.service_code:hover {
+  border: 1px solid #fff; 
+  color: #fff; 
+ display: inline-block;
+}
+ .service_code  {
+  padding: 5px 12px; 
+  transition: all 0.2s ease;
+}
+.copy-write:hover{
+  border: 1px solid #fff; 
+  color: #fff; 
+ display: inline-block;
+}
+ .copy-write {
+  padding: 5px 12px; 
+  transition: all 0.2s ease;
+}

@@ -1,0 +1,65 @@
+/* Outer sticky container */
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+/* Inner header layout */
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 60px;
+}
+
+/* Left side nav list */
+.header_left ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 60px;
+}
+
+/* Individual nav item */
+ .header_left ul li {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.header_left ul li:hover {
+  color: #b3b3b3;
+} */
+
+/* Optional: if you uncomment the right section later */
+.header_right ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  
+}
+
+.header_right ul li {
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+.icon-list {
+  display: flex;             
+  align-items: center;       
+  gap: 16px;                 
+  list-style: none;          
+  padding: 0;
+  margin: 0;
+}

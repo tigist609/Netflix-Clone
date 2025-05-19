@@ -1,23 +1,20 @@
-
-
-
-  :root {
-    @import url('https://developers.google.com/fonts/docs/css2?family=Inter%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&family=Lexend%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap')
+:root {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
   /* Fonts */
-  --font-base: 'Lexend', sans-serif;
-  --font-second-base: 'Inter', sans-serif;
+  --font-base: "Lexend", sans-serif;
+  --font-second-base: "Inter", sans-serif;
 
   /* Colors */
   --bg-color: #111;
-  --primary-color: #ffffff;     /* e.g., blue */
-  --secondary-color: #e50914;   /* e.g., coral */
+  --primary-color: #ffffff; /* e.g., blue */
+  --secondary-color: #e50914; /* e.g., coral */
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background: #111;
   font-family: var(--font-base);
   color: var(--primary-color);
